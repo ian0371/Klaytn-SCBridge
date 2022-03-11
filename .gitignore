@@ -1,3 +1,5 @@
+state.conf
+
 node_modules
 .env
 coverage
