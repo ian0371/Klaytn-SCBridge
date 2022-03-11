@@ -86,7 +86,7 @@ task("transfer", "Cross value transfer from mainbridge to subbridge", async (tas
   const Token = await hre.ethers.getContractFactory("ServiceChainToken");
   const token = await Token.attach(c.token);
   const signers = await hre.ethers.getSigners();
-  console.log(await token.requestValueTransfer(100, signers[3].address, 0, []));
+  await token.requestValueTransfer(100, signers[3].address, 0, []);
 });
 
 task("bal", "Check the balance", async (taskArgs, hre) => {

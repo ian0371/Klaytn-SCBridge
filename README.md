@@ -17,3 +17,6 @@ subbridge: {
   operator: '0xcb5e2874276d3a96ab6331cafeb80baa6453eeb0',
 },
 ```
+
+Then, run `./run.sh`.
+You need to run the output of the program before continuing.
